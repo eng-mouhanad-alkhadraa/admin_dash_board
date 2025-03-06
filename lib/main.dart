@@ -5,17 +5,18 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const AdminDashBord());
 
-    runApp(DevicePreview(enabled: true, builder: (context) => const AdminDashBord()));
+  // runApp(DevicePreview(enabled: true, builder: (context) => const AdminDashBord()));
+  runApp(AdminDashBord());
 }
 
 class AdminDashBord extends StatelessWidget {
   const AdminDashBord({super.key});
 
-  @override 
+  @override
   Widget build(BuildContext context) {
     return MaterialApp(
-            locale: DevicePreview.locale(context),
-      builder: DevicePreview.appBuilder,
+      //       locale: DevicePreview.locale(context),
+      // builder: DevicePreview.appBuilder,
       debugShowCheckedModeBanner: false,
       home: DashBoardView(),
     );

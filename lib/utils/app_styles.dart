@@ -87,7 +87,7 @@ abstract class AppStyles {
     );
   }
 
-// !     function الشكل القديم قبل ما يصير 
+// !     function الشكل القديم قبل ما يصير
 //   static TextStyle styleMedium20 = TextStyle(
 //     color: Color(0xffffffff),
 //     fontSize: getResponsiveFontSize(fontSize: 20),
@@ -95,7 +95,6 @@ abstract class AppStyles {
 //     fontWeight: FontWeight.w500,
 //   );
 // }
-
 
   static TextStyle styleMedium20(context) {
     return TextStyle(

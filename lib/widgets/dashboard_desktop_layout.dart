@@ -31,7 +31,6 @@ class DashBoardDesktopLayOut extends StatelessWidget {
                   children: [
                     Expanded(
                       flex: 2,
-                      //! التعديل اللي قمت به SingleChildScrollView
                       child: Padding(
                         padding: const EdgeInsets.only(top: 40),
                         child: AllExpensesAndQuickInvoiceSection(),

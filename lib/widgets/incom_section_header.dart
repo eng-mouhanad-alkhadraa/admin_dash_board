@@ -1,4 +1,3 @@
-
 import 'package:admin_dash_board/utils/app_styles.dart';
 import 'package:flutter/material.dart';
 
@@ -36,8 +35,7 @@ class IncomSectionHeader extends StatelessWidget {
                 width: 16,
               ),
               Transform.rotate(
-                  angle: -1.57079633,
-                  child: Icon(Icons.arrow_back_ios_new))
+                  angle: -1.57079633, child: Icon(Icons.arrow_back_ios_new))
             ],
           ),
         ),

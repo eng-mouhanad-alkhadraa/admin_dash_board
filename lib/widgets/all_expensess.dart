@@ -12,9 +12,7 @@ class AllExpensess extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomBackgroundContainer(
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-         children: [
+      child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
         AllExpensessHeader(),
         SizedBox(
           height: 16,
